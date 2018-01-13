@@ -1,0 +1,96 @@
+*{   
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: block;
+    margin: inherit;
+    padding: inherit;
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 0;
+}
+
+.question {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.question div {
+    margin: 0 8px;
+    font-size: 1.8rem;
+}
+
+.number.warning {
+    background-color: orange;
+}
+
+.sprite {
+    width: 875px;
+    margin: 150px auto 0;
+    position: relative;
+}
+
+.sprite img {
+    width: 100%;
+    display: block;
+    margin: -10px auto 0;
+    position: relative;
+    z-index: 0;
+}
+
+.click-body {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    padding-left: 3.8%;
+    padding-right: 6.8%;
+}
+
+section {
+    margin-left: 3.8%;
+    margin-right: 6.8%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+.drop-style {
+    display: inline-block;
+    width: 0;
+    height: 1px;
+}
+
+svg path{
+    stroke: steelblue;
+    fill: none;
+    stroke-width: 2;
+}
+
+.segment {
+    display: inline-block;
+}
+
+input {
+    display: block;
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    margin-left: -10px;
+    border: 2px solid #333;
+    font-size: 1.6rem;
+}
+
+input:disabled {
+    background: none;
+    border: none;
+}
